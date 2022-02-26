@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d8d6d6;
+}
+
+header{
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 80%;
+    margin: 25px auto 0px auto;
+    height: 780px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.329);
+}
+
+section div{
+    width: 33.3%;    
+    border-right: 1px solid rgb(128, 127, 127);
+}
+
+section div.form{
+    width: 100%;
+}
+
+section div.form h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section div.form form{
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 190px;
+}
+
+section div.form form label{
+    font-size: 15pt;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+section div.form form input{
+    display: block;
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+section div.form form input[type=button]{
+    background-color: #ccc;
+    color: white;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.445);
+    cursor: pointer;
+}
+
+section div.pessoa {
+    width: 100%;
+}
+
+section div.pessoa h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section div.pessoa form{
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 190px;
+}
+
+section div.pessoa form label{
+    font-size: 15pt;
+    display: block;
+    margin: 15px 0 15px 0;
+}
+
+section div.pessoa form input{
+    display: block;
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+section div.cadastros{
+    width: 100%;
+    border-right: none;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+section div.cadastros h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section div.cadastro-box{
+    border: 1px solid #a3a3a3;
+    padding: 5px;
+    margin: 50px auto 0px auto;
+    width: 75%;
+}
+
+section div.cadastro-box h4{
+    margin-left: 10px;
+    font-weight: 30%;
+}
+
+section div.cadastro-box h4 span{
+    font-weight: normal;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 15pt;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px){
+    section div.form h2{
+        margin-left: 5px;
+        font-size: 14pt;
+        margin-right: 5px;
+    }
+}

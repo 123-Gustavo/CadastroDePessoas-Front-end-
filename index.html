@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 01</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Projeto 01</h1>
+    </header>
+    <section>
+        <div class="form" id="form">
+            <h2>Cadastrar Pessoa <i class="fa fa-address-card"></i></h2>
+            <form action="" method="post">
+                <label for="txtNome">Nome da Pessoa: </label>
+                <input type="text" name="nome" id="txtNome">
+                <label for="txtIdade">Idade da Pessoa: </label>
+                <input type="number" name="idade" id="txtIdade">
+                <label for="txtCpf">CPF da Pessoa: </label>
+                <input type="text" name="cpf" id="txtCpf">
+                <label for="txtData">Data de Nascimento: </label>
+                <input type="date" name="data" id="txtData">
+                <label for="txtTel">Telefone da Pessoa: </label>
+                <input type="text" name="tel" id="txtTel">
+                <label for="txtEmail">Email da Pessoa: </label>
+                <input type="email" name="email" id="txtEmail">
+                <input type="button" value="Cadastrar" onclick="cadastrar()">
+            </form>
+        </div>
+        <div class="pessoa" id="pessoa">
+            <h2>Pessoa <i class="fa fa-user"></i></h2>
+            <form action="" >   
+                <label>Nome da Pessoa: </label>   
+                <input type="text" name="" id="lblNome" disabled>
+                <label>Idade da Pessoa: </label>
+                <input type="number" name="" id="lblIdade" disabled>
+                <label">CPF da Pessoa: </label>
+                <input type="text" name="" id="lblCpf" disabled>
+                <label>Data de Nascimento: </label>
+                <input type="date" name="" id="lblData" disabled>
+                <label">Telefone da Pessoa: </label>
+                <input type="text" name="" id="lblTel" disabled>
+                <label">Email da Pessoa: </label>
+                <input type="email" name="" id="lblEmail" disabled>
+            </form> 
+        </div>
+        <div class="cadastros" id="cadastros">
+            <h2>Cadastrados <i class="fa fa-users"></i></h2>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Gustavo F. Farias</p>
+    </footer>
+  <script src="js/script.js"></script>  
+</body>
+</html>
